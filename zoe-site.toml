@@ -81,9 +81,8 @@ twitter = "TauriApps"
 
 
 [copyright]
-from = 2_022
+from = 2_021
 holder = "${zoe.author.name}"
-location = "Earth"
 
 [layouts]
 default = """
