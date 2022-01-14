@@ -3,12 +3,18 @@ slug: "/"
 title: "Tauri 中文社区"
 ---
 
-<MSection title={[
-    "用Web技术构建一个",
-    <InlineText texts={["更小", "更快", "更安全"]} underline gradient="linear(to-l, #7928CA, #FF0080)" />,
-    "的桌面应用",
-]} action={{title: "开始使用", to: "get-start"}} description="Tauri 中文社区">
+import animationData from "./tauri-splash.json";
+import { useColorModeValue } from "@chakra-ui/react";
 
+<MSection title={<>
+    <Text>用Web技术，</Text>
+    <InlineText texts={["更小", "更快", "更安全"]} underline gradient="linear(to-l, #7928CA, #FF0080)"></InlineText>
+    构建的桌面应用</>} action={{title: "开始使用 ✨", to: "get-start", colorScheme: "teal",}}
+    wraperProps={{bg: useColorModeValue("green.100", "gray.700")}}
+    position="left" description="Tauri 中文社区">
 
+<Box w={["100%", "50%"]}>
+    <Lottie options={{loop: false, animationData}}></Lottie>
+</Box>
 
 </MSection>
