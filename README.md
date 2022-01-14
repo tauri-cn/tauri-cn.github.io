@@ -1,8 +1,8 @@
 
 <div align="center">
 
-# Open Crawler Initiative
+# Tauri 中文社区
 
-Home page for [Open Crawler Initiative](https://opencrawlers.org)
+Home page for [Tauri 中文社区](https://tauri.1hour.me)
 
 </div>
