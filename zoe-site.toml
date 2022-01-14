@@ -26,7 +26,7 @@ href = "/about"
 
 [[navs]]
 title = "Github"
-href = "https://github.com/tauri-apps"
+href = "https://github.com/tauri-cn"
 
 [[links]]
 category = "文档"
@@ -97,6 +97,7 @@ footer:
   disableLogo: false
   disableSocials: false
   disableLinks: false
+  copyrightJustify: space-between
   logoProps:
     textColor: 'unset'
 """
