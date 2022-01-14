@@ -1,0 +1,102 @@
+title = "Tauri 中文社区"
+description = "用Web技术构建更小、更快、更安全的桌面应用。"
+# this filed used by manifest plugin
+# which only supports:
+# - project root based relative path
+# - absolute path
+# - remote url
+# so, we must use absolute path at here
+logo = "${__dirname}/images/tauri.png"
+version = "alpha"
+primaryColor = "yellow"
+baseContentDir = [ "${__dirname}/content" ]
+zoePlugins = [ "src/plugins/blog-post" ]
+# gtagTrackingIds = [ "" ]
+
+[author]
+name = "Tauri 中文社区"
+avatar = "${zoe.logo}"
+homepage = "https://tauri.1hour.me"
+github = "tauri-cn"
+weibo = "tauri-cn"
+
+[[navs]]
+title = "关于"
+href = "/about"
+
+[[navs]]
+title = "Github"
+href = "https://github.com/tauri-apps"
+
+[[links]]
+category = "文档"
+title = "开始使用"
+href = "get-start"
+
+[[links]]
+category = "文档"
+title = "使用教程"
+href = "usage"
+
+[[links]]
+category = "文档"
+title = "API接口"
+href = "api"
+
+[[links]]
+category = "网络"
+title = "DevTo"
+href = "https://dev.to/tauri"
+
+[[links]]
+category = "网络"
+title = "OpenCollevtive"
+href = "https://opencollective.com/tauri"
+
+[[links]]
+category = "网络"
+title = "Github"
+href = "https://github.com/tauri-apps/tauri"
+
+[[links]]
+category = "社区"
+title = "中文社区"
+href = "https://tauri.1hour.me"
+
+[[links]]
+category = "社区"
+title = "赞助商"
+href = "https://tauri.studio/en/partners"
+
+[[links]]
+category = "社区"
+title = "实例"
+href = "https://tauri.studio/en/showcase"
+
+[socials]
+url = "https://tauri.studio"
+email = "contact@tauri.studio"
+discord = "tauri" # todo
+twitter = "TauriApps"
+
+
+[copyright]
+from = 2_022
+holder = "${zoe.author.name}"
+location = "Earth"
+
+[layouts]
+default = """
+maxWidth: ${zoe.maxWidth} # ["100%", "80%", "80%", "80%", "60rem"]
+header:
+  logoProps:
+    textColor: 'unset'
+footer:
+  disableBorder: true
+  disableGotop: true
+  disableLogo: false
+  disableSocials: false
+  disableLinks: false
+  logoProps:
+    textColor: 'unset'
+"""
