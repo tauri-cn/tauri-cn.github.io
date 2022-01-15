@@ -7,7 +7,7 @@ description = "用Web技术构建更小、更快、更安全的桌面应用。"
 # - remote url
 # so, we must use absolute path at here
 logo = "${__dirname}/images/tauri.png"
-version = "alpha"
+version = "unofficial"
 primaryColor = "yellow"
 baseContentDir = [ "${__dirname}/content" ]
 zoePlugins = [ "src/plugins/blog-post" ]
