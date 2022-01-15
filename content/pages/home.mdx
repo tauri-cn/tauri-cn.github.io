@@ -7,11 +7,12 @@ import animationData from "./tauri-splash.json";
 import { useColorModeValue } from "@chakra-ui/react";
 
 <MSection title={<>
-    <Text>用Web技术，</Text>构建
+    <Text>用Web技术</Text>
+    构建
     <InlineText texts={["更小", "更快", "更安全"]} underline gradient="linear(to-l, #7928CA, #FF0080)"></InlineText>
     的桌面应用</>} action={{title: "开始使用 ✨", to: "get-start", colorScheme: "teal",}}
-    wraperProps={{bg: useColorModeValue("green.100", "gray.700")}}
-    position="left" description="Tauri 中文社区">
+    wraperProps={{bg: useColorModeValue("teal.100", "gray.700")}}
+    position="left" description="Tauri 中文社区" flexDirection={["column-reverse", "column-reverse", "row", "row", "row"]}>
 
 <Box w={["100%", "50%"]}>
     <Lottie options={{loop: false, animationData}}></Lottie>
